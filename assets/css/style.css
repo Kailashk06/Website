@@ -17,7 +17,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/bg.jpg") top right no-repeat;
+  background: #040404;
   background-size: cover;
   left: 0;
   right: 0;
@@ -59,7 +59,7 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-          
+
 }
 
 .heading_container h2 {
@@ -105,17 +105,17 @@ a:focus {
       -ms-flex-direction: column;
           flex-direction: column;
           background-color: #2c4def63;
-          
+
 }
 
 .sub_page .hero_area {
   height: auto;
-  
+
 }
 
 .sub_page .header_section {
   margin-top: 0;
-  
+
 }
 
 .header_section {
@@ -268,82 +268,19 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-          
+
 }
 
 .quote_btn-container a {
   color: #ffffff;
   margin-right: 25px;
   text-transform: uppercase;
-  
+
 }
 
 .quote_btn-container a span {
   margin-right: 5px;
-  
-}
-/**
-* Mobile Navigation 
-*/
-.mobile-nav-toggle {
-  color: #fff;
-  font-size: 28px;
-  cursor: pointer;
-  display: none;
-  line-height: 0;
-  transition: 0.5s;
-  position: fixed;
-  right: 15px;
-  top: 15px;
-}
 
-@media (max-width: 991px) {
-  .mobile-nav-toggle {
-    display: block;
-  }
-
-  .navbar ul {
-    display: none;
-  }
-}
-.navbar-mobile {
-  position: fixed;
-  overflow: hidden;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.9);
-  transition: 0.3s;
-  z-index: 999;
-  margin-top: 0;
-}
-.navbar-mobile .mobile-nav-toggle {
-  position: absolute;
-  top: 15px;
-  right: 15px;
-}
-.navbar-mobile ul {
-  display: block;
-  position: absolute;
-  top: 55px;
-  right: 15px;
-  bottom: 45px;
-  left: 15px;
-  padding: 10px 0;
-  overflow-y: auto;
-  transition: 0.3s;
-  border: 2px solid rgba(255, 255, 255, 0.2);
-}
-.navbar-mobile li {
-  padding: 12px 20px;
-}
-.navbar-mobile li + li {
-  margin: 0;
-}
-.navbar-mobile a, .navbar-mobile a:focus {
-  font-size: 16px;
-  position: relative;
 }
 
 /*--------------------------------------------------------------
@@ -421,13 +358,13 @@ section .container {
 .about-me .content ul {
   list-style: none;
   padding: 0;
-  
+
 }
 .about-me .content ul li {
   margin-bottom: 20px;
   display: flex;
   align-items: center;
-  
+
 }
 .about-me .content ul strong {
   margin-right: 10px;
@@ -1148,7 +1085,7 @@ padding-left: 186px;
   }
 
   @media only screen and (max-width: 600px) {
-  
+
     .product-links{
       padding-left: 50px;
         }
@@ -1161,14 +1098,14 @@ padding-left: 186px;
   text-align: center;
   border-radius: 7px;
   padding: 2px 15px;
-  background: #fff; 
+  background: #fff;
 }
 
 /* The Modal (background) */
 .modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
-  
+
   padding-top: 100px; /* Location of the box */
   left: 0;
   top: 0;
