@@ -55,8 +55,12 @@
             </li>
           </ul>
           <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
+            <input type="text" class="form-control" placeholder="Search..." id="searchbar">
+            <div class="input-group-append">
+              <button class="btn btn-secondary" type="button" id="myBtn" onclick="openModal()">
+                <i class="fa fa-search"></i></button>
+            <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button> -->
           </form>
         </div>
       </div>
@@ -199,7 +203,7 @@
   </section><!-- End About Section -->
 
 
-  <!-- ======= product Section ======= -->
+  <!-- ======= product Section =======
   
   <section id="product" class="product">
 
@@ -315,7 +319,7 @@
     </div>
     </div>
     </div> 
-<!-----------Product Description Display Start------------->
+<!-----------Product Description Display Start-------------
   
   <div id="productDisplay">
   <div class="container">

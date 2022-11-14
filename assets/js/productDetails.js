@@ -190,7 +190,7 @@ document.getElementById("productDisplay").style.display = "initial";
   document.getElementById('productRating').innerHTML=found[0].userRating;
   document.getElementById('productCategory').innerHTML=found[0].Category;
   document.getElementById('productdesc').innerHTML=found[0].desc;
-  document.getElementById('productImage').innerHTML = '<img src="'+ found[0].Images +'">';
+  document.getElementById('productImage').innerHTML = '<img style="width: 100%;" src="'+ found[0].Images +'">';
 
 }
 
