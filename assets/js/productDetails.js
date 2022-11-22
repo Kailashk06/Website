@@ -172,7 +172,7 @@ function search_product() {
 
 
 
-// DIAPLAY PRODUCT DATA START--------------------------------
+// DISPLAY PRODUCT DATA START--------------------------------
 function getProductById(id) {
 
 

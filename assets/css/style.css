@@ -1158,3 +1158,32 @@ tr:nth-child(even) {
   background-color: #dddddd;
 }
 
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 15%;
+    padding-top: 0rem;
+    padding-bottom: 39.25rem;
+    color: #d912a2;
+    text-align: center;
+}
+
+.absolute-div {
+  position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.carousel-caption h3 {
+  display:table-cell;
+  vertical-align: middle;
+  text-align:center;
+}
+
+.item {
+  position:relative;
+}
